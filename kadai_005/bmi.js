@@ -1,5 +1,7 @@
-// 定数の宣言・値の代入
-const IBM = 68 / (1.7 * 1.7);
+
+let weight = 68;
+let length = 1.7;
+let BMI = weight / (length * length);
 
 // コンソールへの出力
-console.log(IBM);
+console.log(BMI);
